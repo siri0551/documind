@@ -114,7 +114,7 @@ documind/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/documind.git
+git clone https://github.com/siri0551/documind.git
 cd documind
 ```
 
@@ -204,29 +204,26 @@ http://localhost:8501
 
 ## 📤 Pushing to Your GitHub Portfolio
 
-To showcase DocuMind on your personal GitHub profile:
+To publish this project to your GitHub account:
 
-1. Create a new public repository on [GitHub](https://github.com/new) named `documind`.
-2. In your terminal, initialize Git, commit the files, and push:
+1. Create a new public repository on [GitHub](https://github.com/new) named **`documind`** (leave "Initialize with README" unchecked).
+2. The local repository is already initialized and committed. Run the following commands in PowerShell from the project folder:
    ```bash
-   # Initialize repository
-   git init
+   cd documind
 
-   # Add all files (secrets in .env are automatically ignored by .gitignore)
-   git add .
+   # Origin remote is configured for your profile
+   git remote set-url origin https://github.com/siri0551/documind.git
 
-   # Create initial commit
-   git commit -m "feat: initial commit of DocuMind AI PDF chatbot with RAG"
-
-   # Rename default branch to main
-   git branch -M main
-
-   # Add your remote repository URL
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/documind.git
-
-   # Push to GitHub
+   # Push code to your GitHub repository
    git push -u origin main
    ```
+
+---
+
+## 👤 Author
+
+- **GitHub Profile**: [@siri0551](https://github.com/siri0551)
+- **Project Repository**: [siri0551/documind](https://github.com/siri0551/documind)
 
 ---
 
