@@ -1,0 +1,20 @@
+# Frontend
+streamlit>=1.35.0
+
+# LLM & RAG Orchestration
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
+langchain-google-genai>=1.0.0
+
+# Vector Embeddings & Storage
+sentence-transformers>=3.0.0
+langchain-huggingface>=0.1.0
+faiss-cpu>=1.8.0
+
+# PDF Extraction
+pypdf>=4.2.0
+
+# Environment Management
+python-dotenv>=1.0.1
